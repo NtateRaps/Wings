@@ -1,0 +1,59 @@
+/* Dashboard.css */
+
+.Dashboard-container {
+  background-color: #fffbea; /* Light cream, similar to vanilla */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.Dashboard-header h2 {
+  color: #d35400; /* Pumpkin orange */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Dashboard-content {
+  text-align: center;
+}
+
+.Dashboard-total {
+  font-size: 18px;
+  color: #8b572a; /* Coffee brown */
+  margin-bottom: 20px;
+}
+
+.Dashboard-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:first-of-type {
+  background-color: #f39c12; /* Orange, like pumpkin */
+}
+
+.btn:nth-of-type(2) {
+  background-color: #6cbb3c; /* Leafy green */
+}
+
+.btn.logout {
+  background-color: #c94c4c; /* Tomato red */
+}
